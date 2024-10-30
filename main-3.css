@@ -1,0 +1,103 @@
+/* BẮT ĐẦU MAIN 3 */
+.main-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-3 .muiten {
+    font-size: 24px;
+    color: #009600;
+    border:1px solid #009600;
+    border-radius: 100%;
+    padding:20px;
+    margin:20px;
+}
+.main-3 .muiten a:hover{
+    color:#c44e00;
+}
+.main-3 .muiten a{
+    color:#009600;
+}
+.main-3 .the {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-3 .the img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.main-3 .the-body {
+    padding: 15px;
+    flex: 1;
+}
+.main-3 .the-body h5 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+.main-3 .the-body p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+.main-3 .the-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-top: 1px solid #eee;
+}
+.main-3 .the-footer button#button1{
+    background-color: #ffffff;
+    border: 1px solid rgb(196, 196, 196);
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif; 
+    cursor: pointer;
+}
+.main-3 .the-footer button#button1:hover{
+    background-color: #a79d1f;
+    color:white;
+}
+.main-3 .the-footer button#button2{
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Arial, sans-serif; 
+    cursor: pointer;
+}
+.main-3 .the-footer button#button2:hover{
+    background-color: #c2503c;
+    color:rgb(0, 0, 0);
+}
+.main-3 .the-tg {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+.main-3 .the-tg i {
+    margin-right: 5px;
+}
+/* KẾT THÚC Phần main 3*/
+/*-----------------------------------------------------------*/

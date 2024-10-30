@@ -1,0 +1,90 @@
+/* Phần main 2 */
+.main-2{
+    font-family: 'Arial', 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 10px solid rgb(243, 232, 218);
+    border-bottom:none; 
+}
+.main-2 .header {
+    margin-top: 20px;
+}
+.main-2 .header img {
+    width: 300px;
+    height: 280px;
+}
+.main-2 .header h1 {
+    font-family: 'Times New Roman';
+    font-weight: normal ;
+    font-size: 70px;
+    color: #333;
+}
+.main-2 .courses {
+    background-color: #41d141;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+.main-2 .course {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: rgb(19, 19, 19);
+    margin: 10px;
+    width: 18%;
+    height: 200px;;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main-2 .course i {
+    margin-top:20px;
+    font-size: 40px;
+}
+.main-2 .course i#cloud {
+    color:#e94e1b;
+}
+.main-2 .course i#health {
+    color:#08990f;
+}
+.main-2 .course i#language {
+    color:#d9dd03;
+}
+.main-2 .course i#business {
+    color:#830388;
+}
+.main-2 .course i#management {
+    color:#a50101;
+}
+.main-2 .course i#english {
+    color:#2ec500;
+}
+.main-2 .course i#personal {
+    color:#cf760f;
+}
+.main-2 .course i#sale {
+    color:#ca008e;
+}
+.main-2 .course i#engineer {
+    color:#9ee200;
+}
+.main-2 .course i#teaching {
+    color:#eb8d00;
+}
+.main-2 .course i#muiten{
+    font-size:15px;
+    color:black;
+}
+.main-2 .course i#muiten:hover{
+    color:#9ee200;
+}
+.main-2 .course p {
+    margin: 25px 0;
+}
+.main-2 .course a {
+    color: white;
+    text-decoration: none;
+}
+
